@@ -1,0 +1,6 @@
+﻿<resource>
+  <link rel='stylesheet' href='hal_stylesheet'/>
+  <link rel='related' name='Plain' href='plaintext'/>
+  <FirstName>Joe</FirstName>
+  <LastName>Brown</LastName>
+</resource>

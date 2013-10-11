@@ -1,0 +1,9 @@
+﻿<StackPanel xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'>
+    <TextBlock FontSize="30" Text="First Name"></TextBlock>
+    <TextBox Text="{Binding Path=[FirstName], Mode=TwoWay}" ></TextBox>
+
+    <TextBlock FontSize="30" Text="Last Name"></TextBlock>
+    <TextBox Text="{Binding Path=[LastName], Mode=TwoWay}" ></TextBox>
+
+    <Button Command="{Binding Path=Commands[PressMeCommand]}">Press Me</Button>
+</StackPanel>
